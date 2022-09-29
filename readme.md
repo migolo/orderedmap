@@ -48,11 +48,6 @@ func main() {
     bytes, err := json.Marshal(o)
     prettyBytes, err := json.MarshalIndent(o, "", "  ")
 
-    // deserialize a json string using encoding/json
-    // all maps (including nested maps) will be parsed as orderedmaps
-    s := `{"a": 1}`
-    err := json.Unmarshal([]byte(s), &o)
-
     // sort the keys
     o.SortKeys(sort.Strings)
 

@@ -4,7 +4,7 @@
 
 A golang data type equivalent to python's collections.OrderedDict
 
-Retains order of keys in maps
+Retains order of keys in maps with Generics
 
 Can be JSON serialized / deserialized
 

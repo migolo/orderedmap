@@ -15,7 +15,7 @@ package main
 
 import (
     "encoding/json"
-    "github.com/iancoleman/orderedmap"
+    "github.com/migolo/orderedmap"
 )
 
 func main() {
